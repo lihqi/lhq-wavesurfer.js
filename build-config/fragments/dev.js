@@ -6,6 +6,7 @@ module.exports = {
     mode: 'development',
     devtool: 'eval-source-map',
     devServer: {
+        allowedHosts: 'all',
         static: [
             {
                 directory: path.resolve(__dirname, '..', '..'),

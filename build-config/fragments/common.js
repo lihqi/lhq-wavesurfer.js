@@ -22,6 +22,11 @@ module.exports = {
         libraryTarget: 'umd',
         umdNamedDefine: true
     },
+    devServer: {
+        devMiddleware: {
+            writeToDisk: true
+        }
+    },
     performance: {
         hints: false
     },
